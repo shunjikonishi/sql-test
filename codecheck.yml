@@ -1,0 +1,5 @@
+build:
+  - npm install
+  - node sql/initdb.js
+
+test: mocha
